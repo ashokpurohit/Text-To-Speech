@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_bg">#ffffff</color>
+    <color name="color_tts">#000000</color>
+    <color name="color_gc">#009871</color>
+    <color name="color_et">#000cff</color>
+    <color name="color_et_hint">#ff0000</color>
+    <color name="color_pitch">#000cff</color>
+</resources>

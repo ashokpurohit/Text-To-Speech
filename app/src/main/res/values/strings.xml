@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Text-To-Speech</string>
+    <string name="tts">Text To Speech</string>
+    <string name="gc">Gadget Creek</string>
+    <string name="hint">Enter Text</string>
+    <string name="pitch">Pitch</string>
+</resources>

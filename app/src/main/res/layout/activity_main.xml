@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    tools:context="com.gadgetcreek.text_to_speech.MainActivity">
+
+        <TextView android:text="@string/tts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview"
+            android:textSize="35sp"
+            android:textColor="@color/color_tts"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView android:text="@string/gc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview1"
+            android:layout_below="@+id/textview"
+            android:layout_margin="30dp"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_gc"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_below="@+id/textview1"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/color_et"
+            android:textColorHint="@color/color_et_hint" />
+
+        <TextView android:text="@string/pitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview2"
+            android:textSize="30sp"
+            android:textColor="@color/color_pitch"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/editText"/>
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekpitch"
+            android:layout_below="@+id/textview2"
+            android:layout_marginTop="20dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/speaker"
+            android:id="@+id/imgbutton"
+            android:layout_below="@+id/seekpitch"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@null" />
+
+</RelativeLayout>
